@@ -14,12 +14,13 @@ Before starting, make sure you have the following installed:
 
 How to Build and Run the Application
 
-    Backend Setup
-        Go to the backend folder.
-        Update application.properties with your MySQL details.
-        Build the backend with Maven:
+ Backend Setup
+    
+Go to the backend folder.
+Update application.properties with your MySQL details.
+Build the backend with Maven:
 
-mvn clean install
+    mvn clean install
 
 Run the backend:
 
@@ -27,38 +28,39 @@ Run the backend:
 
 Frontend Setup
 
-    Go to the frontend folder.
-    Install the required packages:
+Go to the frontend folder.
+Install the required packages:
 
-npm install
+    npm install
 
 Start the frontend:
 
         npm start
 
-    Database Setup
-        Import the database schema and sample data into your MySQL server.
+ Database Setup
+ 
+Import the database schema and sample data into your MySQL server.
 
 Usage Instructions
 Starting the System
 
-    Ensure both backend and frontend servers are running.
-    Open http://localhost:3000 in your browser.
+Ensure both backend and frontend servers are running.
+Open http://localhost:3000 in your browser.
 
 Using the Interface
 
-    Explore Events
+Explore Events
         View events on the home page.
         Use filters to find specific events.
 
-    Book Tickets
+Book Tickets
         Click an event for details.
         Choose tickets and complete the booking process.
 
-    Manage Events (Admin)
+Manage Events (Admin)
         Log in as an admin to add or update events.
         Check ticket sales and generate reports.
 
-    View Bookings
+View Bookings
         Check your profile for your booked tickets.
         Cancel bookings if needed.
