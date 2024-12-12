@@ -35,7 +35,7 @@ Install the required packages:
 
 Start the frontend:
 
-        npm start
+    npm start
 
  Database Setup
  
